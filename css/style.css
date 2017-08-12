@@ -30,7 +30,7 @@ h3 {
     font-weight: 300;
     color: #555;
     line-height: 30px;
-    font-style: italic;
+   
 }
 
 img { max-width: 100%; }
@@ -565,6 +565,16 @@ footer {
 	text-align: left;
 }
 
+.footerLinkes {
+     -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
 footer h3 {
 	color: #aaa;
 }
@@ -587,14 +597,14 @@ footer h3 {
 
 .footer-social a {
 	display: inline-block;
-	width: 60px;
-	height: 60px;
+	width: 40px;
+	height: 40px;
 	margin-right: 6px;
 	margin-bottom: 10px;
-	padding-top: 7px;
+	padding-top: 0px;
 	background: #666;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
-    font-size: 32px;
+    font-size: 20px;
     color: #ddd;
     line-height: 40px;
     text-align: center;
